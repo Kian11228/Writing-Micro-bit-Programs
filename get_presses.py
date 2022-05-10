@@ -1,0 +1,9 @@
+#get_presses.py
+
+from microbit import *
+
+sleep(5000)
+
+numberOfPresses = button_a.get_presses()
+display.scroll(numberOfPresses)
+____________________________________________________________________________________________________________________________________________________________________
