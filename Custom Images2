@@ -1,0 +1,10 @@
+#fading_H.py
+
+from microbit import *
+
+fading_H = Image("90001:"
+                 "90001:"
+                 "97531:"
+                 "90001:"
+                 "90001")
+display.show(fading_H)
