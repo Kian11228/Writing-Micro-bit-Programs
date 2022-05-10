@@ -1,0 +1,15 @@
+"""
+count_to_ten_documented.py
+"""
+
+from microbit import *         #import the microbit library
+
+START_VAL = 1                  #set START_VAL to 1
+STOP_VAL = 11                  #set STOP_VAL to 11
+STEP_VAL = 1                   #set STEP_VAL to 1
+
+#count from START_VAL to STOP_VAL incrementing by STEP_VAL
+for counter in range(START_VAL, STOP_VAL, STEP_VAL):   
+    display.scroll(counter)   #display the counter value
+
+display.scroll("All Done!")   #display message when done
