@@ -1,3 +1,7 @@
+#images.py
+
+from microbit import *
+
 display.show(Image.HEART)
 sleep(500)
 display.show(Image.HEART_SMALL)
