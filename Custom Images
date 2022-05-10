@@ -1,0 +1,6 @@
+# two_pixels.py
+
+from microbit import *
+
+display.set_pixel(0, 0, 9)
+display.set_pixel(1, 3, 4)
